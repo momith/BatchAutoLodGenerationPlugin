@@ -1,3 +1,5 @@
+#include "BatchLODGeneratorModule.h"
+
 #include "ContentBrowserModule.h"
 #include "IContentBrowserSingleton.h"
 #include "AssetRegistry/AssetRegistryModule.h"
@@ -8,7 +10,6 @@
 #include "Logging/LogMacros.h"
 #include "PropertyEditorPermissionList.h"  // Required for FPermissionListOwners
 
-#include "BatchLODGeneratorModule.h"
 #include "BatchLODGeneratorEditorModeCommands.h"
 
 #define LOCTEXT_NAMESPACE "BatchLODGeneratorModule"
